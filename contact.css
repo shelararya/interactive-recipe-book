@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7faff(to right, #fdfcfb, #e2d1c3);
+  color: #333;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #dee7f3;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+    background: linear-gradient(to right, #3b82f6, #fef9e7);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+   background: linear-gradient(to right, #3b82f6, #96b1e2);
+}
+
+.topnav {
+  background-color: #1B3C53;
+  overflow: hidden;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f9fafb;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #3b82f6;
+}
